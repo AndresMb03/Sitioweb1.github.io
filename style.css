@@ -1,0 +1,94 @@
+header {
+    background-color: #94760C;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #EBDDC8;
+}
+
+nav button {
+    background-color: #94760C;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav img {
+    height: 80px;
+    margin: 0 20px;
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    width: 200px;
+}
+
+nav button#buscar {
+    background-color: #94760C;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contenedor-imagenes {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contenedor-imagenes img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#left-half {
+    width: 45%;
+    float: left;
+}
+#right-half {
+    width: 50%;
+    float: right;
+
+}
+.slider-container {
+      display: flex;
+      width: 500;
+      height: 500;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+      flex: 100% 0 100%;
+      width: 100%;
+      object-fit: cover;
+      scroll-snap-align: center;
+    }
+
+.clear{
+      clear:both
+}
+
+#footer {
+      position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+      text-align: center;
+}
